@@ -1,0 +1,30 @@
+# Gradle / Kotlin caches and build outputs
+.gradle/
+.kotlin/
+.out/
+**/build/
+
+# Local Android Studio and SDK configuration
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Credentials and signing material
+.env
+.env.*
+!*.env.example
+*.jks
+*.keystore
+*.pem
+*.key
+key.properties
+keystore.properties
+credentials.json
+auth.json
+
+# Generated packages and logs
+*.apk
+*.aab
+*.log
