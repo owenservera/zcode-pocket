@@ -7,6 +7,7 @@
 1. [00-scope/NORTH-STAR.md](00-scope/NORTH-STAR.md) — what we are designing and what we are not.
 2. [00-scope/REPO-REALITY.md](00-scope/REPO-REALITY.md) — what currently exists in this repo, including the Kotlin vs. PWA distinction.
 3. [01-bots/BOT-INTERACTION-v0.1.md](01-bots/BOT-INTERACTION-v0.1.md) — first active UI workstream.
+3a. [01-bots/PHONE-FIRST-ITERATION-WORKBOOK-v0.1.md](01-bots/PHONE-FIRST-ITERATION-WORKBOOK-v0.1.md) — ACTIVE: small releases tested on the installed phone; P0 HTTPS/install/update → P1 a real one-agent conversation; only then advance by observed use.
 4. [01-bots/FEATURE-MATRIX.md](01-bots/FEATURE-MATRIX.md) — visible Grok reference vs current native app vs proposed UI.
 5. [02-references/GROK-BOT-MOBILE-INVENTORY-v0.1.md](02-references/GROK-BOT-MOBILE-INVENTORY-v0.1.md) — observed screenshot menus/features (text only).
 6. [04-decisions/DECISION-LOG.md](04-decisions/DECISION-LOG.md) — explicit decisions and unresolved choices.
