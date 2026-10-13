@@ -3,7 +3,7 @@
   "short_name": "ZCode",
   "description": "Private phone-first conversations with ZCode",
   "id": "./",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#10121a",
