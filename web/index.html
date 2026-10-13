@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10121a"><meta name="description" content="ZCode Pocket — local agent conversations">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css"><title>ZCode Pocket</title>
+<script type="module" src="./main.js"></script></head>
+<body><main class="app">
+<header class="top"><span class="portrait" aria-hidden="true">✦</span><div><h1>ZCode Pocket</h1><p id="connection" role="status" aria-live="polite">Agent connection not configured</p></div><code id="build"></code></header>
+<section class="chat" aria-label="Conversation"><div class="empty"><span aria-hidden="true" class="orb">◎</span><h2>One conversation. Your local system.</h2><p>We're preparing the private connection to a real ZCode agent. This version is an installable phone shell, not a working chat yet.</p><span id="state">No agent connected</span></div></section>
+<section class="composer"><label for="draft">Your draft</label><textarea id="draft" rows="2" placeholder="Write a thought to keep on this phone…"></textarea><div class="below"><span id="draft-status" aria-live="polite">Saved only on this device</span><button type="button" id="send" disabled title="Sending is not connected in P0">Send</button></div></section>
+</main><aside class="update" id="update" hidden role="status"><span>A new version is ready. Your draft is preserved.</span><button type="button" id="apply">Update app</button></aside></body></html>
