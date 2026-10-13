@@ -3,7 +3,7 @@ The source is ready; private HTTPS deployment, Android installation, and real ZC
 
 Canonical playbook source: private `zcode-setup/playbook/toolkit/zcode-pocket-web/web/app/`. This public `zcode-pocket/web/` is a deliberate reviewed source mirror, not a separate backend. Never add tokens, private device names, IP addresses, or transcripts.
 
-Run in the public repo: `python -m http.server 8080 --directory web`, open `http://localhost:8080`. For the canonical private repo, existing `node playbook/toolkit/zcode-pocket-web/server.mjs preview` serves the new shell at `http://127.0.0.1:8391/app/` beside the original simulated preview. Both are development previews, not Android deployment.
+Run in the public repo: `python -m http.server 8080 --directory web`, open `http://localhost:8080`. For the canonical private repo, existing `node playbook/toolkit/zcode-pocket-web/server.mjs preview` serves the new shell at `http://127.0.0.1:8391/app/index.html` beside the original simulated preview. Both are development previews, not Android deployment.
 
 Test public files: `node web/tests/p0-selftest.mjs`. Test canonical files: `node playbook/toolkit/zcode-pocket-web/web/app/tests/p0-selftest.mjs`.
 
