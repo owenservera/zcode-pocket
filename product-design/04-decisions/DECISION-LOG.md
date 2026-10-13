@@ -2,6 +2,8 @@
 
 | Date | Status | Topic | Record |
 |---|---|---|---|
+| 2026-10-13 | USER-CONFIRMED | Iterative release method | Use the actual installed phone PWA as the design/test playground. Start with **one real local agent conversation**, publish incremental visible updates, then add a workspace, more agents and multi-agent communication only after each prior slice is exercised. The first screen is the conversation; do not pre-design a full control dashboard. |
+| 2026-10-13 | PROPOSED | Phone-first workbook | [PHONE-FIRST-ITERATION-WORKBOOK-v0.1.md](../01-bots/PHONE-FIRST-ITERATION-WORKBOOK-v0.1.md) holds successive single-behavior cuts, phone acceptance, open questions and feedback. It authorises no local changes. |
 | 2026-10-13 | USER-CONFIRMED | Platform | **PWA forward.** The native Android client is demoted, NOT migrated: it stays in the repo unmodified as the reference protocol client. This resolves the earlier OPEN row. |
 | 2026-10-13 | USER-CONFIRMED | Dev twin | The realtime UI design twin is retained as a first-class design surface; UI changes are judged there before client work. |
 | 2026-10-13 | REPO-OBSERVED | Chain state | `pocket-link` is live on 0.0.0.0:8392 alongside the hub (8377) and both design surfaces. Earlier "built, not running" status was stale. |
